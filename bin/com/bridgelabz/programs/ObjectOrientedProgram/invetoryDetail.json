@@ -1,0 +1,25 @@
+[
+	{ "pulses":
+	 {
+		"name":"goldRice",
+		"weight" : "1" ,
+		"price" : "40"
+	}
+	},
+
+	{ "pulses":
+		{
+		"name":"goldRice",
+		"weight" :"3" ,
+		"price" : "45"
+ }
+	},
+	{ "wheats":
+		{
+		"name":"goldRice",
+		"weight" : "3",
+		"price" : "45"
+		}
+	}
+
+]
