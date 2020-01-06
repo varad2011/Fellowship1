@@ -1,7 +1,6 @@
-{
-		"name":"goldRice",
-		"weight" : "1" ,
-		"price" : "40"
+{   "name":"goldRice",
+		"weight" : 1 ,
+		"price" : 40
 }
 
 

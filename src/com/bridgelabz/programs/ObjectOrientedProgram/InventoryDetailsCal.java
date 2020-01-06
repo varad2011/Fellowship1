@@ -3,30 +3,47 @@ package com.bridgelabz.programs.ObjectOrientedProgram;
 public class InventoryDetailsCal {
 
 	private String name;
-	private String weight;
-	private String price;
+	private int  weight;
+	private int price;
+	private String rice1;
 
-	public void setName(String name) {
-		this.name = name;
+	public String getRice1() 
+	{
+		return rice1;
 	}
 
-	public void setweight(String weight) {
-		this.weight = weight;
+	public void setRice1(String rice1) 
+	{
+		this.rice1 = rice1;
 	}
 
-	public void setPrice(String price) {
-		this.price = price;
+	public void setName(String name) 
+	{
+		this.name = name ;
 	}
 
-	public String getWeight() {
-		return this.weight;
+	public void setweight(int weight) 
+	{
+		this.weight = weight ;
 	}
 
-	public String getPrice() {
+	public void setPrice(int price) 
+	{
+		this.price = price ;
+	}
+
+	public int getWeight() 
+	{
+		return this.weight ;
+	}
+
+	public int  getPrice() 
+	{
 		return this.price;
 	}
 
-	public String getName() {
+	public String getName() 
+	{
 		return this.name;
 	}
 

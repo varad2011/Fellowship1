@@ -11,13 +11,13 @@ public class primeFactor {
 		int temp=number;
 	
 		
-		for(int i=2;i*i<number;i++) 
+		for(int factorNumbers=2;factorNumbers*factorNumbers<number;factorNumbers++) 
 		{
-			if(temp%i==0) 
+			if(temp%factorNumbers==0) 
 			{
-				System.out.println(i);
-				temp=temp/i;
-				i--;
+				System.out.println(factorNumbers);
+				temp=temp/factorNumbers;
+				factorNumbers--;
 				
 			}
 			
